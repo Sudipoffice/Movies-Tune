@@ -1,0 +1,104 @@
+body{
+    background-image: url(./images/Services.webp);
+    color: #1D2549;
+    font-family: 'Poppins', sans-serif;
+}
+.service{
+    padding-top: 10em;
+}
+.services-info, .services-logo{
+    float: left;
+}
+
+.in{
+    width: 40%;
+}
+
+.lg{
+    width: 60%;
+}
+
+.services-info{
+    font-size: 20px;
+    text-align: center;
+}
+
+.services-info h1{
+    font-weight:bolder;
+}
+.tap-btn{
+    background-color: #89C3ED;
+    border: none;
+    border-radius: 10em;
+    width: 16em;
+    height: 3.5em;
+    margin-top: 4em;
+}
+
+button .tap-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tap-btn p{
+    font-size: 1.75em;
+    color: #2e3968;
+    font-family: poppins;
+}
+
+.services-music, .services-movies{
+    float: left;
+    width: 50%;
+    margin: 0em 3em;
+}
+
+.services-music{
+    background-color: #36b68b7a;
+    height: 20em;
+    width: 20em;
+    /* margin: 0em 1.2em; */
+    border: none;
+    border-radius: 10em;
+}
+.services-movies{
+    background-color: #6896666c;
+    height: 20em;
+    width: 20em;
+    /* margin: 0em  1.2em; */
+    border: none;
+    border-radius: 10em;
+}
+
+
+@media screen and (max-width: 88em){
+    .services-music, .services-movies{
+        margin: 0em 1em;
+    }
+   
+}
+
+@media screen and (max-width: 75em){
+    .service{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .services-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       width: 100%;
+    }
+    .tap-btn{
+        background-color: #89C3ED;
+        border: none;
+        border-radius: 10em;
+        width: 90%;
+        height: 2.5em;
+        align-content: space-around;
+    }
+
+    }
+   
