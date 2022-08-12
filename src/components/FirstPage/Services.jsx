@@ -5,6 +5,7 @@ import Music from "./images/Music.png";
 import Movies from "./images/Movies.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faChevronRight} from '@fortawesome/free-solid-svg-icons';
+import {Link} from "react-router-dom";
 
 
 
@@ -26,7 +27,7 @@ function Services(){
         <div className="services-music">
             <Tilt>
             <div className="music">
-            <a href="https://www.spotify.com/" rel="noreferrer" target="_blank">
+            <a href="https://www.spotify.com/" rel="noopener noreferrer" target="_blank">
             <img className="music-img" src={Music} alt="Music"/>
             </a>
             </div>
@@ -34,11 +35,11 @@ function Services(){
         </div>
         <div className="services-movies">
             <Tilt>
+            <Link to={`/movies`} >
             <div className="movies">
-            <a href="https://www.netflix.com/" rel="noreferrer" target="_blank">
             <img className="movies-img" src={Movies} alt="Movies"/>
-            </a>
             </div>
+            </Link>
             </Tilt>
         </div>
         </div>

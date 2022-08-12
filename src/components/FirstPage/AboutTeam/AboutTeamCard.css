@@ -1,0 +1,338 @@
+
+/* SUDIP */
+.about-team-sudip{
+    float: left;
+    width: 50%;
+    margin: 0em 2em;
+}
+.about-team-sudip{
+    background:linear-gradient(rgb(28, 212, 120),rgb(170, 245, 203));
+    height: 22em;
+    width: 16em;
+    border: none;
+    border-radius: 1em;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+.about-team-sudip:hover{
+    height: 22em;
+    width: 30em;
+    border-radius: 1em 20em 20em 20em;
+    box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+}
+
+.about-team-sudip .sudip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-team-sudip .sudip-img-1{
+   width: 42vh;
+   transition: 50ms ease;
+   cursor: pointer;
+   transform: translateX(-4em);
+   visibility: visible;
+}
+.about-team-sudip:hover .sudip-img-1{
+    transform: translateX(0em);
+    visibility: hidden;
+    transition: -50ms ease;
+}
+
+.about-team-sudip .sudip-img-2{
+    width: 20vh;
+    cursor: pointer;
+    transform: translateX(-14em);
+    visibility: hidden;
+    pointer-events: none;
+ }
+ .about-team-sudip:hover .sudip-img-2{
+     transform: translateX(-12em);
+     visibility: visible;
+     transition: 0ms ease;
+ }
+
+.sudip-info{
+    height: 12em;
+}
+.sudip-info h2{
+    font-weight: bolder;
+    height: 1.5em;
+    width: 10em;
+}
+.sudip-info a{
+    padding: 0.5em;
+    color:#1D2549 ;
+}
+.sudip-info a:hover{
+   color:#566c82 ;
+}
+.sudip-info p{
+    width: 15em;
+}
+
+.about-team-sudip .sudip-info{
+    transform: translateX(10em);
+    visibility: hidden;
+    font-size: 1.2em;
+    transition: -300ms ease;
+ }
+ .about-team-sudip:hover .sudip-info{
+    transform: translateX(10em);
+    transition: 0.5s all ease-in-out;
+    visibility: visible;
+ }
+
+
+/* ANUPAM */
+.about-team-anupam{
+    float: left;
+    width: 50%;
+    margin: 0em 2em;
+}
+.about-team-anupam{
+    background:linear-gradient(rgb(253,127,111),rgb(253,193,128));
+    height: 22em;
+    width: 16em;
+    border: none;
+    border-radius: 1em;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.about-team-anupam:hover{
+    height: 22em;
+    width: 30em;
+    border-radius: 1em 20em 20em 20em;
+    box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
+}
+
+.about-team-anupam .anupam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anupam .anupam-img-1{
+   width: 42vh;
+   transition: 50ms ease;
+   cursor: pointer;
+   transform: translateX(-2em);
+   visibility: visible;
+}
+.anupam:hover .anupam-img-1{
+    transform: translateX(0em);
+    visibility: hidden;
+    transition: -50ms ease;
+}
+
+.anupam .anupam-img-2{
+    width: 24vh;
+    cursor: pointer;
+    transform: translateX(-14em);
+    visibility: hidden;
+    pointer-events: none;
+ }
+ .anupam:hover .anupam-img-2{
+     transform: translateX(-11.2em);
+     visibility: visible;
+     transition: 0ms ease;
+ }
+
+.anupam-info{
+    height: 12em;
+    width: 14em;
+}
+.anupam-info h2{
+    font-weight: bolder;
+    height: 1.5em;
+    width: 10em;
+}
+.anupam-info a{
+    padding: 0.5em;
+    color:#1D2549 ;
+}
+.anupam-info a:hover{
+   color:#826356 ;
+}
+.anupam-info p{
+    width: 15em;
+}
+
+.anupam .anupam-info{
+    transform: translateX(10em);
+    visibility: hidden;
+    font-size: 1.2em;
+ }
+ .anupam:hover .anupam-info{
+    transform: translateX(10em);
+    transition: 0.5s all ease-in-out;
+    visibility: visible;
+    transition: 0ms ease;
+ }
+
+ /* MOBILE VIEW */
+ @media only screen and (min-width: 0px) and (max-width: 980px){
+    /* SUDIP CARD */
+    .about-team-sudip{
+        height: 30em;
+        width: 50em;
+        border-radius: 1em 20em 20em 20em ;
+        transition: none;
+        transform: translateY(-12em);
+        box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+        overflow: visible;
+    }
+    
+    .about-team-sudip:hover{
+        height: 30em;
+        width: 50em;
+        border-radius: 1em 20em 20em 20em;
+    }
+   
+    .about-team-sudip .sudip-img-1{
+        width: 0vh;
+        transition: 0ms ease;
+        cursor: pointer;
+        transform: translateX(-4em);
+        visibility: hidden;
+     }
+     .about-team-sudip:hover .sudip-img-1{
+         transform: translateX(0em);
+         visibility: hidden;
+         transition: -50ms ease;
+     }
+    
+    
+    .about-team-sudip .sudip-img-2{
+        width: 11vh;
+        transform: translateX(-39em);
+        visibility: visible;
+        pointer-events: none;
+     }
+     .about-team-sudip:hover .sudip-img-2{
+         transform: translateX(-39em);
+         visibility: visible;
+         transition: none;
+     }
+
+     .sudip-info{
+        height: 20em;
+    }
+    
+    .sudip-info h2{
+        font-size: 3em;
+        font-weight: bolder;
+        height: 1.5em;
+        width: 10em;
+    }
+    .sudip-info a{
+        padding-right: 1em;
+        color:#1D2549 ;
+        font-size: 3em;
+       
+    }
+    .sudip-info a:hover{
+       color:#566c82 ;
+    }
+    .sudip-info p{
+        width: 18em;
+        font-size: 1.75em;
+        font-weight: bold;
+    }
+     
+    .about-team-sudip .sudip-info{
+        transform: translateX(10em);
+        visibility: visible;
+        font-size: 1.2em;
+     }
+     .about-team-sudip:hover .sudip-info{
+        transform: translateX(10em);
+        transition: none;
+        visibility: none;
+        transition: 0ms ease;
+     } 
+
+        /* ANUPAM CARD */
+
+ .about-team-anupam{
+    height: 30em;
+    width: 50em;
+    border-radius: 1em 20em 20em 20em ;
+    transition: none;
+    transform: translateY(-12em);
+    box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+    overflow: visible;
+    margin-top: 5em;
+}
+
+.about-team-anupam:hover{
+    height: 30em;
+    width: 50em;
+    border-radius: 1em 20em 20em 20em;
+}
+
+.about-team-anupam .anupam-img-1{
+    width: 0vh;
+    transition: 0ms ease;
+    cursor: pointer;
+    transform: translateX(-4em);
+    visibility: hidden;
+ }
+ .about-team-anupam:hover .anupam-img-1{
+     transform: translateX(0em);
+     visibility: hidden;
+     transition: -50ms ease;
+ }
+
+
+.about-team-anupam .anupam-img-2{
+    width: 13vh;
+    transform: translateX(-39em);
+    visibility: visible;
+    pointer-events: none;
+ }
+ .about-team-anupam:hover .anupam-img-2{
+     transform: translateX(-39em);
+     visibility: visible;
+     transition: none;
+ }
+
+ .anupam-info{
+    height: 20em;
+    width: 31em;
+}
+
+.anupam-info h2{
+    font-size: 3em;
+    font-weight: bolder;
+    height: 1.5em;
+    width: 10em;
+}
+.anupam-info a{
+    padding-right: 1em;
+    color:#1D2549 ;
+    font-size: 3em;
+   
+}
+.anupam-info a:hover{
+   color:#566c82 ;
+}
+.anupam-info p{
+    width: 18em;
+    font-size: 1.75em;
+    font-weight: bold;
+}
+ 
+.about-team-anupam .anupam-info{
+    transform: translateX(10em);
+    visibility: visible;
+    font-size: 1.2em;
+ }
+ .about-team-anupam:hover .anupam-info{
+    transform: translateX(10em);
+    transition: none;
+    visibility: none;
+    transition: 0ms ease;
+ } 
+ }

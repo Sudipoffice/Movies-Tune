@@ -1,0 +1,50 @@
+.singlecard{
+    margin: 5px;
+   width: 175px;
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 3em;
+   transition: all 0.5s ease-in-out;
+}
+.singlecard:hover{
+    width: 11.5em;
+    transition: all 0.5s ease-in-out;
+}
+.singlecard img{
+   border-radius: 0.45em;
+   cursor: pointer;
+}
+.singlecard img:hover{
+    object-fit: cover;
+    opacity: 0.8;
+    width: 11.5em;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.card-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+.card-info b{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+}
+.ratings{
+    display: flex;
+    flex-direction: row;
+    font-size: 12.5px;
+    color: rgb(255, 171, 27);
+}
+.star-icon{
+    padding: 0em 0.5em;
+}
+.no{
+    font-size: 12px;
+    font-weight: bolder;
+}

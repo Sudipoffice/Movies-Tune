@@ -1,0 +1,134 @@
+.details-page{
+    font-family: "poppins";
+    background-image: linear-gradient(180deg,#23374d 0%, #000000 75%);
+    color: rgb(235, 235, 235);
+    height: 130vh;
+    width: 100%;
+}
+
+ .details-backarrow{
+  transform: translate(-2em, -18em);
+  color: rgba(255, 255, 255, 0.58);
+}
+.details-backarrow:hover{
+  color: rgba(255, 255, 255, 0.934);
+}
+
+
+.details-poster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    
+}
+
+.details-poster img{
+  
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+}
+
+.details-poster-img{
+  
+    object-fit:cover;
+    object-position: 0 25%;
+    width: 90%;
+    height: 600px;
+  
+}
+
+.details-card-info{
+    background:rgba(0, 0, 0, 0);
+    width: 88.9%;
+    transform: translate(0%,-40%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 35%);
+    padding-left: 10em;
+
+}
+.details-title{
+    font-size: 2.75em;
+    font-weight: bolder;
+}
+.details-card-overview{
+    width: 50%;
+}
+.details-card-overview-txt{
+    font-size: 1em;
+}
+.ratings-trailer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1em;
+}
+.details-ratings{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.details-star-icon{
+    margin-right: 0.5em;
+    color: rgb(255, 182, 47);
+    margin-top: 0.2em;
+}
+.ratings-no {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.details-trailer{
+    padding-left: 2em;
+}
+
+.details-trailer button{
+    border-radius: 0.5em;
+    border: none;
+    width: 11em;
+    height: 2.75em;
+    color: rgb(208, 208, 208);
+    background-color: rgba(29, 44, 79, 0.449);
+    box-shadow: inset 0 0 2000px rgba(126, 126, 126, 0.274);
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details-trailer button:hover{
+    background-color: rgba(34, 36, 39, 0.449);
+}
+
+.details-yt-play{
+    padding-right: 1em;
+    transform: translateY(2px);
+  }
+  
+
+.details-small-poster{
+ width: 18%;
+transform: translate(65em, -30em);
+
+}
+
+
+.details-smallposter-img{
+  width: 90%;
+  border-radius: 0.80em;
+}
+
+.details-genre{
+    background-color: rgba(29, 44, 79, 0.449);
+    box-shadow: inset 0 0 2000px rgba(126, 126, 126, 0.274);
+    backdrop-filter: blur(5px);
+    margin: 10px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+

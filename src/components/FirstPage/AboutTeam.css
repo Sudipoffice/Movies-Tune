@@ -5,17 +5,33 @@
     background-repeat: no-repeat;
     color: #1D2549;
     font-family: 'Poppins', sans-serif;
-    padding-top: 7em;
+}
+.about-team-secondary{
+    transform: translateY(-5em);
+}
+
+.camera{
+    width: 5em;
+    transform: translate(33em, 15em);
+    pointer-events: none;
+}
+.trophy{
+    width: 7em;
+    transform:translate(70em, 7em) rotate(-30deg);
+    pointer-events: none;
+}
+.rocket{
+    width: 7em;
+    transform:translate(-2em, 50em);
+    pointer-events: none;
 }
 
 .about-team-info, .about-team-card{
     float: left;
 }
-
 .inf{
     width:40%;
 }
-
 .ca{
     width:60%;
 }
@@ -25,187 +41,10 @@
     padding: 0em 2.5em;
 }
 
-.edu-info p{
-    font-size: 1.75em;
-    padding-bottom: 2em;
-}
-.heading h3{
-    font-size: 2em;
-    padding-bottom: 0.75em;
-}
-.our-info p{
-    font-size: 1.75em;
-    padding-bottom: 0em;
-}
 
 .about-team-card{
-    padding-top: 5em;
+    padding-top: 0em;
 }
-
-.about-team-sudip, .about-team-anupam{
-    float: left;
-    width: 50%;
-    margin: 3em 2em;
-}
-
-/* SUDIP */
-.about-team-sudip{
-    background:linear-gradient(rgb(28,177,212),rgb(170, 241, 245));
-    height: 22em;
-    width: 16em;
-    border: none;
-    border-radius: 1em;
-    transition: all 0.5s ease-in-out;
-}
-.about-team-sudip:hover{
-    height: 22em;
-    width: 30em;
-    border-radius: 1em 20em 20em 20em;
-    box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
-}
-
-.about-team-sudip .sudip{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.sudip .sudip-img-1{
-   width: 42vh;
-   transition: 50ms ease;
-   cursor: pointer;
-   transform: translateX(-4em);
-   visibility: visible;
-}
-.sudip:hover .sudip-img-1{
-    transform: translateX(0em);
-    visibility: hidden;
-    transition: -50ms ease;
-}
-
-.sudip .sudip-img-2{
-    width: 20vh;
-    cursor: pointer;
-    transform: translateX(-14em);
-    visibility: hidden;
- }
- .sudip:hover .sudip-img-2{
-     transform: translateX(-8em);
-     visibility: visible;
-     transition: 0ms ease;
- }
-
-.sudip-info{
-    height: 12em;
-}
-.sudip-info h2{
-    font-weight: bolder;
-    height: 1.5em;
-    width: 10em;
-}
-.sudip-info a{
-    padding: 0.5em;
-    color:#1D2549 ;
-}
-.sudip-info a:hover{
-   color:#566c82 ;
-}
-.sudip-info p{
-    width: 15em;
-}
-
-.sudip .sudip-info{
-    transform: translateX(10em);
-    visibility: hidden;
-    font-size: 1.2em;
- }
- .sudip:hover .sudip-info{
-    transform: translateX(10em);
-    transition: 0.5s all ease-in-out;
-    visibility: visible;
-    transition: 0ms ease;
- }
-
- /* ANUPAM */
-.about-team-anupam{
-    background:linear-gradient(rgb(253,127,111),rgb(253,193,128));
-    height: 22em;
-    width: 16em;
-    border: none;
-    border-radius: 1em;
-    transition: all 0.5s ease-in-out;
-}
-
-.about-team-anupam:hover{
-    height: 22em;
-    width: 30em;
-    border-radius: 1em 20em 20em 20em;
-    box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
-}
-
-.about-team-anupam .anupam{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.anupam .anupam-img-1{
-   width: 42vh;
-   transition: 50ms ease;
-   cursor: pointer;
-   transform: translateX(-2em);
-   visibility: visible;
-}
-.anupam:hover .anupam-img-1{
-    transform: translateX(0em);
-    visibility: hidden;
-    transition: -50ms ease;
-}
-
-.anupam .anupam-img-2{
-    width: 24vh;
-    cursor: pointer;
-    transform: translateX(-14em);
-    visibility: hidden;
- }
- .anupam:hover .anupam-img-2{
-     transform: translateX(-8em);
-     visibility: visible;
-     transition: 0ms ease;
- }
-
-.anupam-info{
-    height: 12em;
-    width: 14em;
-}
-.anupam-info h2{
-    font-weight: bolder;
-    height: 1.5em;
-    width: 10em;
-}
-.anupam-info a{
-    padding: 0.5em;
-    color:#1D2549 ;
-}
-.anupam-info a:hover{
-   color:#826356 ;
-}
-.anupam-info p{
-    width: 15em;
-}
-
-.anupam .anupam-info{
-    transform: translateX(10em);
-    visibility: hidden;
-    font-size: 1.2em;
- }
- .anupam:hover .anupam-info{
-    transform: translateX(10em);
-    transition: 0.5s all ease-in-out;
-    visibility: visible;
-    transition: 0ms ease;
- }
-
- 
-
 
  @media screen and (max-width: 88em){
     .about-team-sudip, .about-team-anupam{
@@ -223,6 +62,7 @@
     }
     .about-team-card{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
        width: 100%;
@@ -230,4 +70,28 @@
     }
 
     }
-   
+
+/* MOBILE VIEW */
+
+@media only screen and (min-width: 0px) and (max-width: 980px){
+    .about-team-secondary{
+        transform: translateY(-5em);
+    }
+    .camera{
+        width: 5em;
+        transform: translate(-10em, 15em);
+        pointer-events: none;
+    }
+    .trophy{
+        width: 5em;
+        transform:translate(7em, 7em) rotate(-30deg);
+        pointer-events: none;
+    }
+    .about-team-info{
+        text-align: center;
+        padding: 0em 0em;
+        width: 85%;
+        transform: translateY(-14em);
+    }
+
+}

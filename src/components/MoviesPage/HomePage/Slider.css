@@ -1,0 +1,84 @@
+ 
+.slider-home{
+    font-family: 'Poppins';
+    color: whitesmoke;
+    height: 100%;
+    width: 100%;
+   background-color: #000;
+
+}
+
+.poster-image{
+   height: 71%;
+    width: 40%;
+}
+
+.poster-img > img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.poster-info {
+    position: absolute;
+    padding: 0rem 5rem;
+    bottom: 0px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+    
+}   
+
+.poster-info:hover {
+    opacity: 1;
+}
+
+.poster-title {
+    font-weight: 900;
+    font-size: 2em;
+    margin-bottom: 0.4rem;
+    text-align: left;
+    
+}
+.poster-info-pri{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.poster-rating {
+    margin-right: 2rem;
+    font-weight: 2em;
+    color: rgb(255, 188, 6);
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+
+}
+.star-icon{
+    margin-top: 2px;
+}
+
+
+
+.details-btn{
+    border-radius: 0.85em;
+    border: none;
+    width: 9em;
+    height: 2.25em;
+    color: rgb(208, 208, 208);
+    background: #000;
+    box-shadow: inset 0 0 2000px rgba(126, 126, 126, 0.274);
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+}
+.details-btn:hover{
+    color: rgb(208, 208, 208);
+    background: rgb(65, 65, 65);
+}

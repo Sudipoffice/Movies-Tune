@@ -1,0 +1,20 @@
+.movies{
+    font-family: "poppins";
+    background-color: rgb(13,20,26);
+    color: rgb(235, 235, 235);
+    height: 210%;
+    padding-top: 2em;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 4em 15em 0em 15em;
+}
+
+.movies h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: turquoise;
+}

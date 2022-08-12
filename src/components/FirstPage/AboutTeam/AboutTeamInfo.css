@@ -1,0 +1,29 @@
+.edu-info p{
+    font-size: 1.2em;
+    padding-bottom: 2em;
+}
+.heading h3{
+    font-size: 2em;
+    padding-bottom: 0.75em;
+}
+.our-info p{
+    font-size: 1.2em;
+    padding-bottom: 0em;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 980px){
+    .edu-info p{
+        font-size: 2.75em;
+        padding-bottom: 1em;
+        font-weight: bold;
+    }
+    .heading h3{
+        font-size: 3em;
+        padding-bottom: 0.75em;
+        font-weight: bold;
+    }
+    .our-info p{
+        font-size: 2.75em;
+        font-weight: bold;
+    }
+}
