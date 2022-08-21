@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.container2{
+    width: 100%;
+    height: 100vh;
+    background:white;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    place-items: center;
+}
+header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+header .content_ui,.menu_ui{
+    width: 74%;
+    height: 90%;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+header .menu_ui{
+    width: 26%;
+    background-color: rgba(79, 73, 73, 0.061);
+    backdrop-filter: blur(20px);
+}
+header .song_ui{
+    width: 100%;
+    height: 10%;
+    background-color: #efba4a53;
+}
+header .menu_ui h1{
+    font-size: 33px;
+    margin: 15px 0px 0px 20px;
+    font-weight:bolder;
+}
+
+header .menu_ui .playlist{
+    margin: 60px 0px 0px 20px;
+}
+header .menu_ui .playlist h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #bebfc3;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    transition: .3s linear;
+    padding-bottom: 7px;
+}
+header .menu_ui .playlist h4:hover{
+    color: #090f1f;
+}
+header .menu_ui .playlist h4 span{
+    position: relative;
+    margin-right: 35px;
+}
+header .menu_ui .playlist h4 span::before{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border: 2px solid #bebfc3;
+    border-radius: 50%;
+    top: -4px;
+    transition: .3s linear;
+}
+header .menu_ui .playlist h4:hover span::before{
+    border-color: #090f1f;
+}
+header .menu_ui .playlist h4 .bi{
+    display: none;
+}
+header .menu_ui .playlist .active{
+    color: rgb(86, 44, 4);
+}
+header .menu_ui .playlist .active span{
+    display: none;
+}
+header .menu_ui .playlist .active .bi{
+    display: flex;
+    margin-right: 17px;
+}
+header .menu_ui .song_list{
+    width:100%;
+    height:460px;
+    margin-top: 70px;
+    overflow: auto;
+}
+header .menu_ui .song_list::-webkit-scrollbar{
+    display:none;
+}
+header .menu_ui .song_list li{
+    list-style-type: none;
+    position: relative;
+    padding: 6px 0px 6px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+header .menu_ui .song_list li:hover{
+    background: rgba(255, 188, 100, 0.835);
+}
+header .menu_ui .song_list li span{
+    font-size: 14px;
+}
+header .menu_ui .song_list li img{
+    width: 43px;
+    height: 43px;
+    margin-left: 25px; 
+}
+header .menu_ui .song_list li h5{
+    font-size: 14px;
+    margin-left: 17.5px;
+    width: 172px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+header .menu_ui .song_list li h5 .singer{
+    font-size: 11.7px; 
+    color: #67686e;
+}
+header .menu_ui .song_list li .bi{
+    position: absolute;
+    right: 24px;
+    font-size: 23px;
+}

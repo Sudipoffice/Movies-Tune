@@ -106,7 +106,7 @@ button .tap-btn{
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(1em, -1em);
+    transform: translate(0em, -1em);
     background:transparent
 }
 .movies-img{

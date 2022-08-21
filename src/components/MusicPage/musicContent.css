@@ -1,0 +1,194 @@
+.content_ui .popular_songs{
+    width: 94%;
+    height: auto;
+    margin:auto;
+    margin-top: 55px;
+}
+.content_ui .popular_songs .h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content_ui .popular_songs .h4 .bi{
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.content_ui .popular_songs .h4 .bi:hover{
+    color: rgb(129, 196, 30);
+}
+.content_ui .popular_songs .h4 #leftbtn{
+    margin-left: 5px;
+}
+.content_ui .popular_songs .h4 h4{
+    font-size: 22px;
+}
+.content_ui .popular_songs .pop_songs_list{
+    width: 100%;
+    height: 172px;
+    display: flex;
+    margin-top: 15px;
+}
+.content_ui .popular_songs .pop_songs_list{
+    width: 100%;
+    height: 197px;
+    display: flex;
+    margin-top: 15px;
+    overflow-x: auto;
+}
+.content_ui .popular_songs .pop_songs_list::-webkit-scrollbar{
+    display: none;
+}
+.content_ui .popular_songs .pop_songs_list li{
+    min-width: 145px;
+    height: 195px;
+    margin-right: 30px;
+    transition: .3s linear;
+    cursor: pointer;
+}
+.content_ui .popular_songs .pop_songs_list li:hover{
+    background: rgba(200, 161, 45, 0.183);
+}
+.content_ui .popular_songs .pop_songs_list .img_play{
+    width: 147px;
+    height: 145px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.content_ui .popular_songs .pop_songs_list li h5{
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content_ui .popular_songs .pop_songs_list li h5 .singer{
+    font-size: 12px;
+    color: rgb(91, 89, 89);
+    font-weight: 400;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content_ui .popular_songs .pop_songs_list li .img_play img{
+    width: 122%;
+    height: 100%;
+}
+.content_ui .popular_songs .pop_songs_list li .img_play .bi{
+    position: absolute;
+    font-size: 22px;
+    transition: .3s linear;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+}
+.content_ui .popular_songs .pop_songs_list li:hover .img_play .bi{
+    opacity: 1;
+}
+
+
+/* artists */
+
+.content_ui .popular_artist{
+    width: 94%;
+    height: auto;
+    margin:auto;
+    margin-top: 45px;
+}
+.content_ui .popular_artist .h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content_ui .popular_artist .h4 .bi{
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.content_ui .popular_artist .h4 .bi:hover{
+    color: rgb(129, 196, 30);
+}
+.content_ui .popular_artist .h4 #leftbtn{
+    margin-left: 5px;
+}
+.content_ui .popular_artist .h4 h4{
+    font-size: 22px;
+}
+
+.content_ui .popular_artist .pop_artist_list{
+    width: 100%;
+    height: 197px;
+    display: flex;
+    margin-top: 15px;
+    overflow-x: auto;
+}
+.content_ui .popular_artist .pop_artist_list::-webkit-scrollbar{
+    display: none;
+}
+.content_ui .popular_artist .pop_artist_list li{
+    min-width: 145px;
+    height: 195px;
+    margin-right: 30px;
+    transition: .3s linear;
+    cursor: pointer;
+}
+.content_ui .popular_artist .pop_artist_list li:hover{
+    color: rgb(197, 83, 22);
+}
+.content_ui .popular_artist .pop_artist_list .img_play{
+    width: 147px;
+    height: 145px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.content_ui .popular_artist .pop_artist_list li h5{
+    padding-top: 5px;
+    font-size: 16px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content_ui .popular_artist .pop_artist_list li h5 .singer{
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content_ui .popular_artist .pop_artist_list li .img_play img{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+.content_ui .popular_artist .pop_artist_list li .img_play .bi{
+    position: absolute;
+    font-size: 22px;
+    transition: .3s linear;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+}
+.content_ui .popular_artist .pop_artist_list li:hover .img_play .bi{
+    opacity: 1;
+}
+
+
+
+
+
+
+   
+
+
+
+
+
+
